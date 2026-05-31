@@ -1,6 +1,6 @@
 {
   "name": "ml-ops-codespace",
-  "image": "mcr.microsoft.com/devcontainers/miniconda:1-3.11-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/miniconda:1-3",
   "postCreateCommand": "conda install -y notebook jupyterlab && python -m pip install --upgrade pip",
   "customizations": {
     "vscode": {
